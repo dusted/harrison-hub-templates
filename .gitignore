@@ -1,3 +1,10 @@
 #JPEG
 *.jpg
 *.jpeg
+
+#FONT
+*.eot
+*.otf
+*.svg
+*.ttf
+*.woff
