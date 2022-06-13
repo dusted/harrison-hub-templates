@@ -1,0 +1,144 @@
+/* =============================================================================
+   HTML5 Boilerplate CSS: h5bp.com/css
+   ========================================================================== */
+   
+@font-face {
+    font-family: 'dearjoeitalic';
+    src: url('../fonts/dearji__-webfont.eot');
+    src: url('../fonts/dearji__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dearji__-webfont.woff') format('woff'),
+         url('../fonts/dearji__-webfont.ttf') format('truetype'),
+         url('../fonts/dearji__-webfont.svg#dearjoeitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}   
+
+@font-face {
+	font-family: 'Conv_HelveticaNeue';
+	src: url('../fonts/HelveticaNeue.eot');
+	src: local('☺'), url('../fonts/HelveticaNeue.woff') format('woff'), url('../fonts/HelveticaNeue.ttf') format('truetype'), url('../fonts/HelveticaNeue.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'bitterregular';
+    src: url('../fonts/bitter-regular-webfont.eot');
+    src: url('../fonts/bitter-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bitter-regular-webfont.woff') format('woff'),
+         url('../fonts/bitter-regular-webfont.ttf') format('truetype'),
+         url('../fonts/bitter-regular-webfont.svg#bitterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+body { margin: 0; font-size: 1em; line-height: 1.4; }
+
+
+/* ===== Primary Styles ========================================================
+   Author: Dan 'The Man' Hodkinson
+   ========================================================================== */
+
+body{
+	font-family: helvetica, arial;
+	color: #000
+}
+
+#page{
+	position: relative;
+	float: left;
+	width: 3508px;
+	height: 2476px;
+	background: url(../img/background.jpg) no-repeat;
+}
+
+
+#company{
+	position: absolute;
+	top: 180px;
+	left: 905px;
+	width: 2100px;
+	font-family: 'bitterregular';
+	font-weight: normal;
+	font-size: 76px;
+	line-height:98px;
+	color:#FFF;
+	padding: 10px 35px;
+}
+
+.table{
+
+	border-top: 8px solid #794588;
+	border-bottom: 6px solid #794588;
+	background: #fff;
+	background: rgba(255,255,255, 0.9);
+	position: absolute;
+	top: 540px;
+	left: 115px;
+	width: 3280px;
+	font-family: 'Conv_HelveticaNeue';
+	font-weight: normal;
+}
+
+.bottom-border{
+	width: 100%;
+	border-top: 2px solid #794588;
+	position: absolute;
+	bottom: 0;
+}
+
+.table .col{
+	display: block;
+	float: left;
+	width:468px;
+}
+
+.table div{
+	vertical-align: top;
+}
+
+.table ul {
+	padding: 0;
+	margin: 0;
+}
+.table .col li{
+
+	height: 160px;
+	list-style: none;
+	padding: 25px;
+	border-bottom: 2px dotted #794588;
+	font-size: 40px;
+	line-height: 40px;
+	margin-left: 2px;
+}
+#available_daily_wrapper{
+	position: absolute;
+	top: 2183px;
+    left: 114px;
+	width: 1490px;
+	display:block;
+}
+
+#available_daily_wrapper .available-daily-img {
+	display:block;
+	width:421px;
+	height: 81px;
+	margin-bottom:10px;
+	background: url(../../available-daily.png) no-repeat;
+}
+
+#available_daily{
+	background: #fff;
+	background: rgba(255,255,255, 0.9);
+	display:block;
+	width: 1490px;
+	font-family: 'Conv_HelveticaNeue';
+	font-weight: normal;
+	font-size: 31px;
+	line-height:45px;
+	padding: 10px 25px;
+}

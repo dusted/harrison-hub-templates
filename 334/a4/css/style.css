@@ -1,0 +1,107 @@
+/* =============================================================================
+   HTML5 Boilerplate CSS: h5bp.com/css
+   ========================================================================== */
+@font-face {
+    font-family: 'dearjoeitalic';
+    src: url('../fonts/dearji__-webfont.eot');
+    src: url('../fonts/dearji__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dearji__-webfont.woff') format('woff'),
+         url('../fonts/dearji__-webfont.ttf') format('truetype'),
+         url('../fonts/dearji__-webfont.svg#dearjoeitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bitterregular';
+    src: url('../fonts/bitter-regular-webfont.eot');
+    src: url('../fonts/bitter-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bitter-regular-webfont.woff') format('woff'),
+         url('../fonts/bitter-regular-webfont.ttf') format('truetype'),
+         url('../fonts/bitter-regular-webfont.svg#bitterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* ===== Primary Styles ========================================================
+   Author: Dan 'The Man' Hodkinson
+   ========================================================================== */
+
+body{
+	font-family: helvetica, arial;
+	color: #000;
+}
+#page{
+	position: relative;
+	float: left;
+	width: 2480px;
+	height: 3508px;
+	background: url(../img/background.jpg) no-repeat;
+}
+#header-title {
+  position: relative;
+  left: -155px;
+  top: 430px;
+  width: 2150px;
+  border: none;
+  font-family: 'Deja Vu Sans';
+  font-weight: bold;
+  line-height: 102px;
+  color: #fff;
+  margin: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  border: solid #F00 0px;
+  -ms-transform: rotate(-7deg);
+  -webkit-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+}
+.content{
+	padding: 0;
+	margin: 0 auto;
+	background: rgba(255,255,255,0.9);
+	width: 1680px;
+	font-family: helvetica, arial;
+	position: absolute;
+	top: 1240px;
+	left: 380px;
+	padding: 30px;
+	height: auto;
+  min-height: 1600px;
+}
+.content p{
+	padding: 0px;
+	margin-top: 0;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+/*< wysiwyg font sizes a4 px*4.37 >*/
+.wysiwyg-h6{
+	font-size:49px;
+}
+.wysiwyg-h5{
+	font-size:57px;
+}
+.wysiwyg-h4{
+	font-size:69px;
+}
+.wysiwyg-h3{
+	font-size:90px;
+}
+.wysiwyg-h2{
+	font-size:106px;
+}
+.wysiwyg-h1{
+	font-size:147px;
+}
+.content p {
+  line-height: 1.2em;
+}
+.wysiwyg-text{
+  margin-bottom: 0.3em !important;
+  margin-top: 0px !important;
+  font-weight: normal;
+  line-height: 1.2em;
+}

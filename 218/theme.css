@@ -1,0 +1,12 @@
+.table{
+    border-top-color: #82C66B;
+    border-bottom-color:  #82C66B;
+}
+
+.table .col li{
+    border-top-color: #82C66B;
+}
+
+#available_daily_wrapper{
+    border-color: #82C66B;
+}
